@@ -17,6 +17,7 @@ const FeedbackOptions = ({ state, onLeaveFeedback }) => {
 }
 
 FeedbackOptions.propTypes = {
+  state: PropTypes.object.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 }
 
